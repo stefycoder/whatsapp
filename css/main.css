@@ -136,7 +136,9 @@ li{
 }
 .lista{
 	height: 550px;
+	width: 725px;
 	padding-top: 5%;
+	padding-right: 2%;
 	overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -150,11 +152,15 @@ li{
     bottom: 20px;
     margin-bottom: 0.5%;
 }
-.yo{
-	width: 40%;
-    height: 40px;
-    background: #DCF8C6;
-    left:360px;
+.yo-msg{
+	text-align: right;
+	position: relative;
+	top: -20px;
+}
+.yo-msg ul{
+	    background: #DCF8C6;
+	    display: inline-block;
+	    padding: 0.5% 1% 1% 1.5%;
 }
 .lista h4 {
     font-size: 1em;
